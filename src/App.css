@@ -5,26 +5,6 @@ header {
   height: 60px;
 }
 
-.search {
-  width: 40%;
-  height: 35px;
-  display: block;
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-
-  padding: 0 10px;
-  margin-top: 10px;
-  margin-right: auto;
-  margin-left: auto;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-}
-
-.search:focus {
-  width: 45%;
-}
-
 .hidden {
   display: none;
 }
@@ -147,4 +127,44 @@ body {
   color: #ffffff;
   font-size: 36px;
   font-weight: bold;
+}
+
+.search {
+  width: 25%;
+  height: 35px;
+  display: block;
+  position: fixed;
+  left: 45%;
+  transform: translateX(-50%);
+
+  padding: 0 10px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn {
+  position: absolute;
+  height: 35px;
+  margin-top: 10px;
+  border: none;
+  right: 35%;
+  color: white;
+  background-color: rgb(169, 20, 9);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+}
+
+.discovered {
+  filter: brightness(1) !important;
+  opacity: 1 !important;
 }
