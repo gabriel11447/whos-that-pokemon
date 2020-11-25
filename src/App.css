@@ -130,7 +130,7 @@ body {
 }
 
 .search {
-  width: 25%;
+  width: 20%;
   height: 35px;
   display: block;
   position: fixed;
@@ -145,10 +145,10 @@ body {
 
 .btn {
   position: absolute;
-  height: 35px;
+  height: 39px;
   margin-top: 10px;
   border: none;
-  right: 35%;
+  right: 37%;
   color: white;
   background-color: rgb(169, 20, 9);
   padding: 10px;
